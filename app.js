@@ -1,29 +1,33 @@
-// Data types
-// Primitive Data types
+// Arithmetic operators
 
-let age = 199
-let Name = "Snehal"
-console.log(typeof age)
-console.log(Name)
-console.log(typeof Name)
+const a = 2
+const b = 15
+let c = 11
 
-let brand
-console.log(brand)
+console.log(a + b)
 
-let Null = null
-console.log(Null)
-console.log(typeof Null)
+console.log(a - b)
 
-let isTrue = true
-let isFalse = false
-console.log(isTrue)
-console.log(isFalse)
+console.log(a * b)
 
-// Non-primitive Data types
+console.log(a / b)
 
-let arr = [1,2,3,4]
-arr.push("Value")
-arr.unshift(false)
-console.log(arr)
-console.log(typeof arr)
+console.log(a ** b)
 
+console.log(b % a)
+
+console.log("_________________________________________")
+
+//c += 1
+// c++
+// c += 1 equivalent to c++
+// c = c + 1 => 11 + 1 = 12
+
+//c *= 5
+// c operator is equivalent to c = c operator numbar
+// c = c * 5 = 11 * 5 = 55
+
+// c /= 11
+// c = c / 11 = 11 / 11 = 1
+
+console.log(c)
