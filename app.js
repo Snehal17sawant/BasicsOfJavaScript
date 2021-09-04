@@ -1,11 +1,21 @@
-//const element = document.getElementById("selector")
+const element = document.querySelector('#selector')
+// element.innerHTML = "This is From JS"
 
-//const element = document.getElementsByClassName("heading")
+// element.style.color = "cyan"
+// element.style.fontSize = "40px"
+// element.style = "display:none"
 
-//const element = document.getElementsByTagName("h2")
+// console.log(element)
+// console.log(element.classList)
+// element.classList.add('five')
+// console.log(element.classList)
+// element.classList.remove('one')
+// console.log(element.classList)
 
-//const element = document.querySelector('div#selector')
+// const body = document.querySelector('body')
 
-const element = document.querySelectorAll('.heading')
+// console.log(body.classList.toggle('dark'))
 
-console.log(element)
+const value = element.classList.contains('five')
+
+console.log(value)
